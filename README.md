@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 -->
 
 * [blog](https://github.com/mesondzh/blog)
-* [LightBulb](https://github.com/mesondzh/LightBulb)
+* [LightBulb](https://github.com/mesondzh/LightBulb/issues)
