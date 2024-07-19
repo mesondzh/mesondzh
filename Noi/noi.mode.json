@@ -1,7 +1,7 @@
 {
     "name": "Noi Mode",
     "version": "0.1.9",
-    "sync": "https://raw.githubusercontent.com/mesondzh/mesondzh/main/Noi/noi.mode.json",
+    "sync": "https://github.com/mesondzh/LightBulb/blob/main/Noi/noi.mode.json",
     "modes": [
       {
         "id": "noi@ai",
