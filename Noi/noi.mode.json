@@ -1,0 +1,115 @@
+{
+    "name": "Noi Mode",
+    "version": "0.1.9",
+    "sync": "https://github.com/mesondzh/LightBulb/blob/main/Noi/noi.mode.json",
+    "modes": [
+      {
+        "id": "noi@ai",
+        "parent": 0,
+        "dir": true,
+        "text": "AI"
+      },
+      {
+        "id": "noi@dev",
+        "parent": 0,
+        "dir": true,
+        "text": "Dev"
+      },
+      {
+        "id": "noi@community",
+        "parent": 0,
+        "dir": true,
+        "text": "Community"
+      },
+      {
+        "id": "noi@video",
+        "parent": 0,
+        "dir": true,
+        "text": "Video"
+      },
+      {
+        "id": "noi:chatgpt",
+        "parent": "noi@ai",
+        "text": "ChatGPT",
+        "url": "https://chatgpt.com"
+      },
+      {
+        "id": "noi:claude",
+        "parent": "noi@ai",
+        "text": "Claude",
+        "url": "https://claude.ai"
+      },
+      {
+        "id": "noi:gemini",
+        "parent": "noi@ai",
+        "text": "Gemini",
+        "url": "https://gemini.google.com"
+      },
+      {
+        "id": "noi:perplexity",
+        "parent": "noi@ai",
+        "text": "Perplexity",
+        "url": "https://www.perplexity.ai"
+      },
+      {
+        "id": "noi:copilot",
+        "parent": "noi@ai",
+        "text": "Copilot",
+        "url": "https://copilot.microsoft.com"
+      },
+      {
+        "id": "noi:huggingchat",
+        "parent": "noi@ai",
+        "text": "HuggingChat",
+        "url": "https://huggingface.co/chat"
+      },
+      {
+        "id": "noi:groq",
+        "parent": "noi@ai",
+        "text": "Groq",
+        "url": "https://groq.com"
+      },
+      {
+        "id": "noi:lechatmistral",
+        "parent": "noi@ai",
+        "text": "Le Chat Mistral",
+        "url": "https://chat.mistral.ai/chat"
+      },
+      {
+        "id": "noi:pi",
+        "parent": "noi@ai",
+        "text": "Pi",
+        "url": "https://pi.ai/talk"
+      },
+      {
+        "id": "noi:midjourney",
+        "parent": "noi@ai",
+        "text": "Midjourney",
+        "url": "https://www.midjourney.com"
+      },
+      {
+        "id": "noi:github",
+        "parent": "noi@dev",
+        "text": "GitHub",
+        "url": "https://github.com"
+      },
+      {
+        "id": "noi:x",
+        "parent": "noi@community",
+        "text": "X",
+        "url": "https://twitter.com"
+      },
+      {
+        "id": "noi:hackernews",
+        "parent": "noi@community",
+        "text": "Hacker News",
+        "url": "https://news.ycombinator.com"
+      },
+      {
+        "id": "noi:youtube",
+        "parent": "noi@video",
+        "text": "YouTube",
+        "url": "https://www.youtube.com"
+      }
+    ]
+  }
