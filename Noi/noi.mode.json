@@ -8,12 +8,12 @@
             "parent": 0,
             "dir": true,
             "text": "AI"
-        }, 
+        },
         {
-            "id": "noi@company",
+            "id": "noi@document",
             "parent": 0,
             "dir": true,
-            "text": "Company"
+            "text": "Doc"
         },
         {
             "id": "noi@community",
@@ -26,6 +26,18 @@
             "parent": 0,
             "dir": true,
             "text": "Vedio"
+        },
+        {
+            "id": "noi@company",
+            "parent": 0,
+            "dir": true,
+            "text": "Company"
+        },
+        {
+            "id": "noi@email",
+            "parent": 0,
+            "dir": true,
+            "text": "Email"
         },
         {
             "id": "noi:chatgpt",
@@ -110,6 +122,30 @@
             "parent": "noi@company",
             "text": "OMP",
             "url": "https://w3.huawei.com/odas"
+        },
+        {
+            "id": "noi:gmail",
+            "parent": "noi@email",
+            "text": "Gmail",
+            "url": "https://mail.google.com"
+        },
+        {
+            "id": "noi:outlook",
+            "parent": "noi@email",
+            "text": "Outlook",
+            "url": "https://outlook.live.com"
+        },
+        {
+            "id": "noi:reference",
+            "parent": "noi@document",
+            "text": "Quick Reference",
+            "url": "https://wangchujiang.com/reference/"
+        },
+        {
+            "id": "noi:hello-algo",
+            "parent": "noi@document",
+            "text": "Hello 算法",
+            "url": "https://www.hello-algo.com/chapter_hello_algo/"
         }
     ]
 }
