@@ -1,7 +1,7 @@
 {
     "name": "Noi Mode",
     "version": "0.1.9",
-    "sync": "https://github.com/mesondzh/LightBulb/blob/main/Noi/noi.mode.json",
+    "sync": "https://raw.githubusercontent.com/mesondzh/mesondzh/main/Noi/noi.mode.json",
     "modes": [
       {
         "id": "noi@ai",
@@ -10,28 +10,22 @@
         "text": "AI"
       },
       {
-        "id": "noi@dev",
-        "parent": 0,
-        "dir": true,
-        "text": "Dev"
-      },
-      {
         "id": "noi@community",
         "parent": 0,
         "dir": true,
         "text": "Community"
       },
       {
-        "id": "noi@video",
-        "parent": 0,
-        "dir": true,
-        "text": "Video"
-      },
-      {
         "id": "noi:chatgpt",
         "parent": "noi@ai",
         "text": "ChatGPT",
         "url": "https://chatgpt.com"
+      },
+      {
+        "id": "noi:copilot",
+        "parent": "noi@ai",
+        "text": "Copilot",
+        "url": "https://copilot.microsoft.com"
       },
       {
         "id": "noi:claude",
@@ -52,40 +46,10 @@
         "url": "https://www.perplexity.ai"
       },
       {
-        "id": "noi:copilot",
-        "parent": "noi@ai",
-        "text": "Copilot",
-        "url": "https://copilot.microsoft.com"
-      },
-      {
         "id": "noi:huggingchat",
         "parent": "noi@ai",
         "text": "HuggingChat",
         "url": "https://huggingface.co/chat"
-      },
-      {
-        "id": "noi:groq",
-        "parent": "noi@ai",
-        "text": "Groq",
-        "url": "https://groq.com"
-      },
-      {
-        "id": "noi:lechatmistral",
-        "parent": "noi@ai",
-        "text": "Le Chat Mistral",
-        "url": "https://chat.mistral.ai/chat"
-      },
-      {
-        "id": "noi:pi",
-        "parent": "noi@ai",
-        "text": "Pi",
-        "url": "https://pi.ai/talk"
-      },
-      {
-        "id": "noi:midjourney",
-        "parent": "noi@ai",
-        "text": "Midjourney",
-        "url": "https://www.midjourney.com"
       },
       {
         "id": "noi:github",
@@ -100,6 +64,12 @@
         "url": "https://twitter.com"
       },
       {
+        "id": "noi:v2ex",
+        "parent": "noi@community",
+        "text": "V2EX",
+        "url": "https://www.v2ex.com/"
+      },
+      {
         "id": "noi:hackernews",
         "parent": "noi@community",
         "text": "Hacker News",
@@ -107,7 +77,7 @@
       },
       {
         "id": "noi:youtube",
-        "parent": "noi@video",
+        "parent": "noi@community",
         "text": "YouTube",
         "url": "https://www.youtube.com"
       }
