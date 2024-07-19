@@ -108,8 +108,8 @@
         {
             "id": "noi:omp",
             "parent": "noi@company",
-            "text": "W3",
-            "url": "https://w3.huawei.com"
+            "text": "OMP",
+            "url": "https://w3.huawei.com/odas"
         }
     ]
 }
