@@ -1,13 +1,19 @@
 {
     "name": "Noi Mode",
     "version": "0.1.9",
-    "sync": "https://github.com/mesondzh/LightBulb/blob/main/Noi/noi.mode.json",
+    "sync": "https://codehub-g.huawei.com/api/codehub/v1/projects/4127906/repository/files/Noi%2Fcompany.json/raw?ref=master",
     "modes": [
         {
             "id": "noi@ai",
             "parent": 0,
             "dir": true,
             "text": "AI"
+        }, 
+        {
+            "id": "noi@company",
+            "parent": 0,
+            "dir": true,
+            "text": "Company"
         },
         {
             "id": "noi@community",
@@ -92,6 +98,18 @@
             "parent": "noi@video",
             "text": "BiliBili",
             "url": "https://www.bilibili.com"
+        },
+        {
+            "id": "noi:w3",
+            "parent": "noi@company",
+            "text": "W3",
+            "url": "https://w3.huawei.com/"
+        },
+        {
+            "id": "noi:omp",
+            "parent": "noi@company",
+            "text": "W3",
+            "url": "https://w3.huawei.com"
         }
     ]
 }
