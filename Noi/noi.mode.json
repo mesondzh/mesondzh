@@ -16,6 +16,12 @@
             "text": "Community"
         },
         {
+            "id": "noi@video",
+            "parent": 0,
+            "dir": true,
+            "text": "Vedio"
+        },
+        {
             "id": "noi:chatgpt",
             "parent": "noi@ai",
             "text": "ChatGPT",
@@ -53,7 +59,7 @@
         },
         {
             "id": "noi:github",
-            "parent": "noi@dev",
+            "parent": "noi@community",
             "text": "GitHub",
             "url": "https://github.com"
         },
@@ -77,9 +83,15 @@
         },
         {
             "id": "noi:youtube",
-            "parent": "noi@community",
+            "parent": "noi@video",
             "text": "YouTube",
             "url": "https://www.youtube.com"
+        },
+        {
+            "id": "noi:bilibili",
+            "parent": "noi@video",
+            "text": "BiliBili",
+            "url": "https://www.bilibili.com"
         }
     ]
 }
