@@ -1,7 +1,7 @@
 {
     "name": "Noi Mode",
     "version": "0.1.9",
-    "sync": "https://codehub-g.huawei.com/api/codehub/v1/projects/4127906/repository/files/Noi%2Fcompany.json/raw?ref=master",
+    "sync": "https://raw.githubusercontent.com/mesondzh/mesondzh/main/Noi/company.mode.json",
     "modes": [
         {
             "id": "noi@ai",
